@@ -1,0 +1,117 @@
+body {
+  font-family: "Montserrat";
+}
+
+.jumbotron {
+  text-align: center;
+  padding-top: 10rem;
+  /* padding-bottom: 10rem; */
+  text-shadow: 2px 2px #000;
+}
+
+.lead {
+  color: white;
+  font-weight: bold;
+}
+
+.bg-cover {
+  background-size: cover;
+  color: white;
+  background-position: bottom right;
+  position: relative;
+  z-index: -2;
+}
+
+.overlay {
+  background-color: #000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+nav,
+nav a {
+  color: white;
+  font-size: 12px;
+}
+
+nav a.nav-link:active {
+  color: #475cfd;
+  font-weight: bold;
+}
+
+nav a.nav-link:hover {
+  color: #475cfd;
+}
+
+nav a.nav-link:selected {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+section {
+  padding-top: 1.5rem;
+}
+
+.card-body h2 {
+  color: #212529;
+  font-weight: bold;
+}
+
+.main p {
+  margin-top: 20px;
+  color: #212529;
+  word-spacing: 0em;
+}
+
+.main h2 {
+  color: #212529;
+  font-weight: bold;
+}
+
+.third a {
+  background-color: #212529;
+  color: white;
+  margin-top: 20px;
+  width: auto;
+  height: 37px;
+}
+
+.second a {
+  background-color: white;
+  color: #212529;
+}
+
+.second a:link {
+  text-decoration: none;
+}
+
+.second a:hover {
+  background-color: #212529;
+  color: white;
+}
+
+.card-body {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-img {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 36%;
+}
+
+.carousel-item {
+  text-shadow: 1px 1px #212529;
+}
+
+section #send {
+  background-color: #212529;
+  color: white;
+}
